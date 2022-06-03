@@ -46,11 +46,11 @@
             <div class="row">
                 <div class="col">
                     <!-- Title-->
-                    <p class="display-3 text-center mb-5">API Keygen</p>
+                    <p class="display-3 text-center pe-none mb-5">API Keygen</p>
                     <!-- Input Group-->
                     <div class="d-flex justify-content-center">
                         <div class="input-group-lg">
-                            <input class="form-control mb-3" type="text" value="Private API Key" aria-label="readonly input example" readonly>
+                            <input class="form-control border border-danger border-5 rounded-pill pe-none mb-3" type="text" value={{ api_key }} ia-label="readonly input example" readonly>
 
                             <button type="button" class="btn btn-outline-success" id="liveToastBtn">Generate</button>
                             <button type="button" class="btn btn-outline-danger" id="liveToastBtn">Revoke</button>
@@ -62,12 +62,13 @@
                                 <div class="toast-header">
 
                                     <span class="btn-close position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle bg-light" data-bs-dismiss="toast" aria-label="Close">
-                    </span>
+                                        </span>
 
                                     <strong class="me-auto fs-5">Request</strong>
                                 </div>
                                 <div class="toast-body">
-                                    <p class="lead">Sent <span class="badge bg-primary">get</span> request to API</p>
+                                    <p class="lead">Sent <span class="badge bg-primary">get</span> request to API
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -76,6 +77,12 @@
             </div>
         </div>
         <!-- Grid end-->
+        <!--Footer-->
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span class="text-muted">Place sticky footer content here.</span>
+            </div>
+        </footer>
     </div>
     <!-- partial -->
     <script>
