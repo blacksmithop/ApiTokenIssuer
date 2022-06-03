@@ -9,5 +9,5 @@ Token Issuer
 python3 manage.py runserver
 ```
 
-| :copyright: blacksmithop |
+| :copyright: [blacksmithop](https://github.com/blacksmithop) |
 |---|
